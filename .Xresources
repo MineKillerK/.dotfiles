@@ -1,1 +1,52 @@
-dotfiles/Xresources/.Xresources
+! #define background	#44475a
+! #define backgroundalt	#282a36
+! #define yellow	#ffdf00
+! #define red		#ff5555
+
+! Special
+*.background: 	#282a36
+*.foreground: 	#f8f8f2
+
+
+! Black
+*.color0:	#282a36
+*.color8:	#45454d
+! *.color8:	#575b70
+
+! Red
+*.color1:	#ff5555
+*.color9:	#ff6e67
+
+! Green
+*.color2:	#50fa7b
+*.color10:	#5af78e
+
+! Yellow
+*.color3:	#ffdf00
+*.color11:	#f4f99d
+
+! Blue
+*.color4:	#caa9fa
+*.color12:	#caa9fa
+
+! Magenta
+*.color5:	#ff79c6
+*.color13:	#ff92d0
+
+! Cyan
+*.color6:	#8be9fd
+*.color14:	#9aedfe
+
+! White
+*.color7:	#bfbfbf
+*.color15:	#e6e6e6
+
+
+! URxvt
+URxvt.font: 			xft:Hack:size=11
+URxvt.scrollBar: 		false
+URxvt.internalBorder:		8
+URxvt.keysym.Control-Shift-C:	eval:selection_to_clipboard
+URxvt.keysym.Control-Shift-V:	eval:paste_clipboard
+URxvt.iso14755: false
+URxvt.depth: 32

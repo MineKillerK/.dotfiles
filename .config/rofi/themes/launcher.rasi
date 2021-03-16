@@ -1,0 +1,71 @@
+// vim: syntax=css
+
+configuration {
+	modi: "drun";
+	font: "Hack 12";
+	fixed-num-lines: true;
+	show-icons: true;
+    disable-history: true;
+	sidebar-mode: true;
+	separator-style: "none";
+	hide-scrollbar:	true;
+	fullscreen:	false;
+	scroll-method: 1;
+	show-match: true;
+	icon-theme: "Papirus Dark";
+}
+
+* {
+	background-color: #282a36;
+    primary: #ffdf00;
+    text-color: #e6e6e6;
+}
+
+window {
+    border-radius: 6px;
+    width: 18%;
+    height: 40%;
+    location: north;
+    horizontal-align: 0;
+    x-offset: -40%;
+    y-offset: 48px;  
+}
+
+mainbox {
+    padding: 10px 20px 2px 0px;
+}
+
+listview {
+    fixed-height: 0;
+    spacing: 6px;
+    scrollbar: false;
+    padding: 20px 0px 0px 25px;
+}
+
+element {  
+    font: "Hack 16";
+}
+
+element selected.normal {
+    text-color: @primary;
+}
+
+button {
+    text-color: #29293d;
+    font: "Hack 16";
+}
+
+inputbar {  
+    spacing: 10px;
+    padding: 0px 0px 0px 25px;
+}
+
+entry {
+   padding:    5px 0px 0px 0px;
+   background-color:  @x1;
+}
+
+
+prompt {
+    font: "Hack 16";
+}

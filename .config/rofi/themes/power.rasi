@@ -1,0 +1,48 @@
+// vim: syntax=css
+
+configuration {
+	font: "Hack 12";
+	show-icons: false;
+	disable-history: true;
+	hide-scrollbar: true;
+}
+
+* {
+	background-color: #282a36;
+	text-color: #e6e6e6;
+	primary: #ffdf00;
+}
+
+window {
+	border-radius: 6px;
+	padding: 10px;
+	width: 29%;
+    height: 13.5%;
+}
+
+inputbar {
+	children: [ prompt ];
+	spacing: 10px;
+}
+
+prompt {
+	horizontal-align: 1;
+}
+
+element-text {
+	font: "Hack 64";
+    margin: 1% 0.5% 7% 0.5%;
+}
+
+listview {
+	spacing: 10px;
+	cycle: true;
+	dynamic: true;
+	layout: horizontal;
+}
+
+element selected.normal {
+    text-color: @primary;
+    border-radius: 6px;
+    background-color: #45454d;
+}
